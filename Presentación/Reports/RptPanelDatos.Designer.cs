@@ -30,11 +30,6 @@ namespace Presentación.Reports
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.DoughnutSeriesLabel doughnutSeriesLabel1 = new DevExpress.XtraCharts.DoughnutSeriesLabel();
-            DevExpress.XtraCharts.DoughnutSeriesView doughnutSeriesView1 = new DevExpress.XtraCharts.DoughnutSeriesView();
-            DevExpress.XtraCharts.StackedBarSeriesView stackedBarSeriesView1 = new DevExpress.XtraCharts.StackedBarSeriesView();
-            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             DevExpress.DataAccess.Sql.CustomSqlQuery customSqlQuery1 = new DevExpress.DataAccess.Sql.CustomSqlQuery();
             DevExpress.DataAccess.Sql.CustomSqlQuery customSqlQuery2 = new DevExpress.DataAccess.Sql.CustomSqlQuery();
             DevExpress.DataAccess.Sql.CustomSqlQuery customSqlQuery3 = new DevExpress.DataAccess.Sql.CustomSqlQuery();
@@ -43,21 +38,19 @@ namespace Presentación.Reports
             DevExpress.DataAccess.Sql.CustomSqlQuery customSqlQuery6 = new DevExpress.DataAccess.Sql.CustomSqlQuery();
             DevExpress.DataAccess.Sql.CustomSqlQuery customSqlQuery7 = new DevExpress.DataAccess.Sql.CustomSqlQuery();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RptPanelDatos));
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.DoughnutSeriesView doughnutSeriesView1 = new DevExpress.XtraCharts.DoughnutSeriesView();
             DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.DoughnutSeriesView doughnutSeriesView2 = new DevExpress.XtraCharts.DoughnutSeriesView();
-            DevExpress.XtraCharts.Series series3 = new DevExpress.XtraCharts.Series();
             DevExpress.XtraCharts.PieSeriesLabel pieSeriesLabel1 = new DevExpress.XtraCharts.PieSeriesLabel();
             DevExpress.XtraCharts.PieSeriesView pieSeriesView1 = new DevExpress.XtraCharts.PieSeriesView();
-            DevExpress.XtraCharts.StackedBarSeriesView stackedBarSeriesView2 = new DevExpress.XtraCharts.StackedBarSeriesView();
-            DevExpress.XtraCharts.ChartTitle chartTitle2 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.StackedBarSeriesView stackedBarSeriesView1 = new DevExpress.XtraCharts.StackedBarSeriesView();
             DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series4 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.Series series3 = new DevExpress.XtraCharts.Series();
             DevExpress.XtraCharts.PointSeriesLabel pointSeriesLabel1 = new DevExpress.XtraCharts.PointSeriesLabel();
             DevExpress.XtraCharts.LineSeriesView lineSeriesView1 = new DevExpress.XtraCharts.LineSeriesView();
             DevExpress.XtraCharts.LineSeriesView lineSeriesView2 = new DevExpress.XtraCharts.LineSeriesView();
-            DevExpress.XtraCharts.ChartTitle chartTitle3 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
             this.Detail = new DevExpress.XtraReports.UI.DetailBand();
-            this.xrChart3 = new DevExpress.XtraReports.UI.XRChart();
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.xrPanel1 = new DevExpress.XtraReports.UI.XRPanel();
             this.xrTable6 = new DevExpress.XtraReports.UI.XRTable();
@@ -96,7 +89,6 @@ namespace Presentación.Reports
             this.xrTableCell2 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell7 = new DevExpress.XtraReports.UI.XRTableCell();
             this.GroupHeader1 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.xrChart4 = new DevExpress.XtraReports.UI.XRChart();
             this.GroupHeader2 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrLine1 = new DevExpress.XtraReports.UI.XRLine();
             this.xrTable2 = new DevExpress.XtraReports.UI.XRTable();
@@ -110,113 +102,40 @@ namespace Presentación.Reports
             this.Month = new DevExpress.XtraReports.UI.CalculatedField();
             this.Quarter = new DevExpress.XtraReports.UI.CalculatedField();
             this.Totals = new DevExpress.XtraReports.UI.CalculatedField();
-            ((System.ComponentModel.ISupportInitialize)(this.xrChart3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnutSeriesLabel1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnutSeriesView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView1)).BeginInit();
+            this.xrChart4 = new DevExpress.XtraReports.UI.XRChart();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnutSeriesView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(doughnutSeriesView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(pointSeriesLabel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(lineSeriesView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(lineSeriesView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             // 
             // Detail
             // 
             this.Detail.BackColor = System.Drawing.Color.Transparent;
             this.Detail.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
-            this.xrChart3,
             this.xrPanel1,
             this.xrChart2});
             this.Detail.Font = new System.Drawing.Font("Verdana", 9.75F);
-            this.Detail.HeightF = 501.3637F;
+            this.Detail.HeightF = 261.3636F;
             this.Detail.Name = "Detail";
             this.Detail.Padding = new DevExpress.XtraPrinting.PaddingInfo(0, 0, 0, 0, 100F);
             this.Detail.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopLeft;
-            // 
-            // xrChart3
-            // 
-            this.xrChart3.BackColor = System.Drawing.Color.Transparent;
-            this.xrChart3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
-            this.xrChart3.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrChart3.DataSource = this.sqlDataSource1;
-            this.xrChart3.Legend.AlignmentVertical = DevExpress.XtraCharts.LegendAlignmentVertical.Center;
-            this.xrChart3.Legend.BackColor = System.Drawing.Color.Transparent;
-            this.xrChart3.Legend.Border.Visibility = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart3.Legend.Font = new System.Drawing.Font("Tahoma", 9F);
-            this.xrChart3.Legend.HorizontalIndent = 0;
-            this.xrChart3.Legend.MarkerSize = new System.Drawing.Size(20, 20);
-            this.xrChart3.Legend.Name = "Default Legend";
-            this.xrChart3.Legend.Padding.Bottom = 0;
-            this.xrChart3.Legend.Padding.Left = 20;
-            this.xrChart3.Legend.Padding.Right = 30;
-            this.xrChart3.Legend.Padding.Top = 0;
-            this.xrChart3.Legend.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(85)))), ((int)(((byte)(104)))));
-            this.xrChart3.Legend.TextOffset = 5;
-            this.xrChart3.Legend.VerticalIndent = 10;
-            this.xrChart3.Legend.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            this.xrChart3.LocationFloat = new DevExpress.Utils.PointFloat(382.4999F, 261.3637F);
-            this.xrChart3.Name = "xrChart3";
-            this.xrChart3.Padding = new DevExpress.XtraPrinting.PaddingInfo(22, 22, 15, 15, 96F);
-            this.xrChart3.PaletteName = "Palette 1";
-            this.xrChart3.PaletteRepository.Add("Palette 1", new DevExpress.XtraCharts.Palette("Palette 1", DevExpress.XtraCharts.PaletteScaleMode.Repeat, new DevExpress.XtraCharts.PaletteEntry[] {
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(174)))), ((int)(((byte)(197))))), System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(174)))), ((int)(((byte)(197)))))),
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(107)))), ((int)(((byte)(132))))), System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(107)))), ((int)(((byte)(132)))))),
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(163)))), ((int)(((byte)(140))))), System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(163)))), ((int)(((byte)(140)))))),
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(144))))), System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(144)))))),
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))), System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))))}));
-            series1.ArgumentDataMember = "Top Vendidos.Nombre del Producto";
-            series1.FilterString = "[Orders.OrderDate] >= #2019-01-01# And [Orders.OrderDate] < #2020-01-01#";
-            doughnutSeriesLabel1.BackColor = System.Drawing.Color.Transparent;
-            doughnutSeriesLabel1.Border.Visibility = DevExpress.Utils.DefaultBoolean.False;
-            doughnutSeriesLabel1.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
-            doughnutSeriesLabel1.Position = DevExpress.XtraCharts.PieSeriesLabelPosition.Inside;
-            doughnutSeriesLabel1.TextColor = System.Drawing.Color.White;
-            doughnutSeriesLabel1.TextPattern = "{VP:0%}";
-            series1.Label = doughnutSeriesLabel1;
-            series1.LegendTextPattern = "{A}";
-            series1.Name = "Series 1";
-            series1.SeriesPointsSorting = DevExpress.XtraCharts.SortingMode.Ascending;
-            series1.ValueDataMembersSerializable = "Top Vendidos.Cantidad";
-            doughnutSeriesView1.HoleRadiusPercent = 45;
-            doughnutSeriesView1.SweepDirection = DevExpress.XtraCharts.PieSweepDirection.Clockwise;
-            series1.View = doughnutSeriesView1;
-            this.xrChart3.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1};
-            this.xrChart3.SeriesTemplate.FilterString = "[Orders.OrderDate] >= #2019-01-01# And [Orders.OrderDate] < #2020-01-01#";
-            this.xrChart3.SeriesTemplate.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart3.SeriesTemplate.View = stackedBarSeriesView1;
-            this.xrChart3.SizeF = new System.Drawing.SizeF(390F, 240F);
-            this.xrChart3.StylePriority.UseBackColor = false;
-            this.xrChart3.StylePriority.UseBorderColor = false;
-            this.xrChart3.StylePriority.UseBorders = false;
-            this.xrChart3.StylePriority.UsePadding = false;
-            chartTitle1.Alignment = System.Drawing.StringAlignment.Near;
-            chartTitle1.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Bold);
-            chartTitle1.Indent = 15;
-            chartTitle1.Text = "Product Categories";
-            chartTitle1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(174)))), ((int)(((byte)(180)))));
-            chartTitle1.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            this.xrChart3.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle1});
             // 
             // sqlDataSource1
             // 
@@ -476,20 +395,20 @@ namespace Presentación.Reports
             this.xrChart6.PaletteRepository.Add("Palette 1", new DevExpress.XtraCharts.Palette("Palette 1", DevExpress.XtraCharts.PaletteScaleMode.Repeat, new DevExpress.XtraCharts.PaletteEntry[] {
                 new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))), System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(174)))), ((int)(((byte)(197)))))),
                 new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(240))))), System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(240))))))}));
-            series2.ArgumentDataMember = "PorcentajeActivo.Column1";
-            series2.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
-            series2.Name = "Series 1";
-            series2.ValueDataMembersSerializable = "PorcentajeActivo.Column1";
-            doughnutSeriesView2.ExplodeMode = DevExpress.XtraCharts.PieExplodeMode.UsePoints;
-            doughnutSeriesView2.HoleRadiusPercent = 45;
-            doughnutSeriesView2.TotalLabel.Border.Thickness = 5;
-            doughnutSeriesView2.TotalLabel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
-            doughnutSeriesView2.TotalLabel.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(112)))), ((int)(((byte)(192)))));
-            doughnutSeriesView2.TotalLabel.TextPattern = "100%";
-            doughnutSeriesView2.TotalLabel.Visible = true;
-            series2.View = doughnutSeriesView2;
+            series1.ArgumentDataMember = "PorcentajeActivo.Column1";
+            series1.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
+            series1.Name = "Series 1";
+            series1.ValueDataMembersSerializable = "PorcentajeActivo.Column1";
+            doughnutSeriesView1.ExplodeMode = DevExpress.XtraCharts.PieExplodeMode.UsePoints;
+            doughnutSeriesView1.HoleRadiusPercent = 45;
+            doughnutSeriesView1.TotalLabel.Border.Thickness = 5;
+            doughnutSeriesView1.TotalLabel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
+            doughnutSeriesView1.TotalLabel.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(112)))), ((int)(((byte)(192)))));
+            doughnutSeriesView1.TotalLabel.TextPattern = "100%";
+            doughnutSeriesView1.TotalLabel.Visible = true;
+            series1.View = doughnutSeriesView1;
             this.xrChart6.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series2};
+        series1};
             this.xrChart6.SizeF = new System.Drawing.SizeF(175F, 185F);
             this.xrChart6.StylePriority.UseBackColor = false;
             this.xrChart6.StylePriority.UsePadding = false;
@@ -515,36 +434,29 @@ namespace Presentación.Reports
                 new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(163)))), ((int)(((byte)(140))))), System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(163)))), ((int)(((byte)(140)))))),
                 new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(144))))), System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(144)))))),
                 new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))), System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))))}));
-            series3.ArgumentDataMember = "Top Vendidos.Nombre del Producto";
+            series2.ArgumentDataMember = "Top Vendidos.Nombre del Producto";
             pieSeriesLabel1.BackColor = System.Drawing.Color.Transparent;
             pieSeriesLabel1.Border.Visibility = DevExpress.Utils.DefaultBoolean.False;
             pieSeriesLabel1.LineVisibility = DevExpress.Utils.DefaultBoolean.True;
             pieSeriesLabel1.Position = DevExpress.XtraCharts.PieSeriesLabelPosition.Inside;
             pieSeriesLabel1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             pieSeriesLabel1.TextPattern = "{A} {V}";
-            series3.Label = pieSeriesLabel1;
-            series3.LabelsVisibility = DevExpress.Utils.DefaultBoolean.True;
-            series3.Name = "Serie1";
-            series3.ValueDataMembersSerializable = "Top Vendidos.Cantidad";
-            series3.View = pieSeriesView1;
+            series2.Label = pieSeriesLabel1;
+            series2.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
+            series2.Name = "Serie1";
+            series2.ValueDataMembersSerializable = "Top Vendidos.Cantidad";
+            series2.View = pieSeriesView1;
             this.xrChart2.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series3};
+        series2};
             this.xrChart2.SeriesSorting = DevExpress.XtraCharts.SortingMode.Ascending;
             this.xrChart2.SeriesTemplate.FilterString = "[Orders.OrderDate] >= #2019-01-01# And [Orders.OrderDate] < #2020-01-01#";
             this.xrChart2.SeriesTemplate.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart2.SeriesTemplate.View = stackedBarSeriesView2;
+            this.xrChart2.SeriesTemplate.View = stackedBarSeriesView1;
             this.xrChart2.SizeF = new System.Drawing.SizeF(386.8749F, 240F);
             this.xrChart2.StylePriority.UseBackColor = false;
             this.xrChart2.StylePriority.UseBorderColor = false;
             this.xrChart2.StylePriority.UseBorders = false;
             this.xrChart2.StylePriority.UsePadding = false;
-            chartTitle2.Alignment = System.Drawing.StringAlignment.Near;
-            chartTitle2.Font = new System.Drawing.Font("Verdana", 9.75F);
-            chartTitle2.Indent = 15;
-            chartTitle2.Text = "Productos más vendidos";
-            chartTitle2.TextColor = System.Drawing.Color.Black;
-            this.xrChart2.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle2});
             // 
             // BottomMargin
             // 
@@ -647,6 +559,7 @@ namespace Presentación.Reports
             // 
             this.Detail1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrTable1});
+            this.Detail1.Expanded = false;
             this.Detail1.HeightF = 32.00002F;
             this.Detail1.Name = "Detail1";
             // 
@@ -707,76 +620,16 @@ namespace Presentación.Reports
             // 
             this.GroupHeader1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrChart4});
-            this.GroupHeader1.Expanded = false;
             this.GroupHeader1.HeightF = 531.5454F;
             this.GroupHeader1.Level = 1;
             this.GroupHeader1.Name = "GroupHeader1";
             this.GroupHeader1.PrintAcrossBands = true;
-            // 
-            // xrChart4
-            // 
-            this.xrChart4.BackColor = System.Drawing.Color.Transparent;
-            this.xrChart4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
-            this.xrChart4.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrChart4.DataSource = this.sqlDataSource1;
-            xyDiagram1.AxisX.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisY.Visibility = DevExpress.Utils.DefaultBoolean.True;
-            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            xyDiagram1.DefaultPane.EnableAxisXScrolling = DevExpress.Utils.DefaultBoolean.False;
-            xyDiagram1.DefaultPane.EnableAxisXZooming = DevExpress.Utils.DefaultBoolean.False;
-            xyDiagram1.DefaultPane.EnableAxisYScrolling = DevExpress.Utils.DefaultBoolean.False;
-            xyDiagram1.DefaultPane.EnableAxisYZooming = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart4.Diagram = xyDiagram1;
-            this.xrChart4.Legend.AlignmentHorizontal = DevExpress.XtraCharts.LegendAlignmentHorizontal.Right;
-            this.xrChart4.Legend.AlignmentVertical = DevExpress.XtraCharts.LegendAlignmentVertical.TopOutside;
-            this.xrChart4.Legend.Border.Visibility = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart4.Legend.Direction = DevExpress.XtraCharts.LegendDirection.LeftToRight;
-            this.xrChart4.Legend.Name = "Default Legend";
-            this.xrChart4.Legend.Visibility = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart4.LocationFloat = new DevExpress.Utils.PointFloat(10F, 10F);
-            this.xrChart4.Name = "xrChart4";
-            this.xrChart4.Padding = new DevExpress.XtraPrinting.PaddingInfo(22, 22, 15, 32, 96F);
-            this.xrChart4.PaletteName = "Palette 1";
-            this.xrChart4.PaletteRepository.Add("Palette 1", new DevExpress.XtraCharts.Palette("Palette 1", DevExpress.XtraCharts.PaletteScaleMode.Repeat, new DevExpress.XtraCharts.PaletteEntry[] {
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(174)))), ((int)(((byte)(197))))), System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(174)))), ((int)(((byte)(197)))))),
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(107)))), ((int)(((byte)(132))))), System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(107)))), ((int)(((byte)(132)))))),
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(163)))), ((int)(((byte)(140))))), System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(163)))), ((int)(((byte)(140)))))),
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(144))))), System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(144)))))),
-                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))), System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))))}));
-            series4.ArgumentDataMember = "Ventas Realizadas.FechaVenta";
-            pointSeriesLabel1.TextPattern = "{V:#.00}";
-            series4.Label = pointSeriesLabel1;
-            series4.Name = "Serie1";
-            series4.ValueDataMembersSerializable = "Ventas Realizadas.Total";
-            series4.View = lineSeriesView1;
-            this.xrChart4.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series4};
-            this.xrChart4.SeriesSorting = DevExpress.XtraCharts.SortingMode.Ascending;
-            this.xrChart4.SeriesTemplate.FilterString = "[Orders.OrderDate] >= #2019-01-01# And [Orders.OrderDate] < #2020-01-01#";
-            this.xrChart4.SeriesTemplate.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
-            this.xrChart4.SeriesTemplate.View = lineSeriesView2;
-            this.xrChart4.SizeF = new System.Drawing.SizeF(570F, 405.0001F);
-            this.xrChart4.StylePriority.UseBackColor = false;
-            this.xrChart4.StylePriority.UseBorderColor = false;
-            this.xrChart4.StylePriority.UseBorders = false;
-            this.xrChart4.StylePriority.UsePadding = false;
-            chartTitle3.Alignment = System.Drawing.StringAlignment.Near;
-            chartTitle3.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Bold);
-            chartTitle3.Indent = 25;
-            chartTitle3.Text = "Ventas Realizadas, C$";
-            chartTitle3.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(174)))), ((int)(((byte)(180)))));
-            this.xrChart4.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle3});
             // 
             // GroupHeader2
             // 
             this.GroupHeader2.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLine1,
             this.xrTable2});
-            this.GroupHeader2.Expanded = false;
             this.GroupHeader2.HeightF = 95F;
             this.GroupHeader2.Name = "GroupHeader2";
             // 
@@ -904,7 +757,65 @@ namespace Presentación.Reports
             this.Totals.FieldType = DevExpress.XtraReports.UI.FieldType.Decimal;
             this.Totals.Name = "Totals";
             // 
-            // RptDetalleProducto
+            // xrChart4
+            // 
+            this.xrChart4.BackColor = System.Drawing.Color.Transparent;
+            this.xrChart4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(236)))), ((int)(((byte)(240)))));
+            this.xrChart4.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrChart4.DataSource = this.sqlDataSource1;
+            xyDiagram1.AxisX.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisY.Visibility = DevExpress.Utils.DefaultBoolean.True;
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            xyDiagram1.DefaultPane.EnableAxisXScrolling = DevExpress.Utils.DefaultBoolean.False;
+            xyDiagram1.DefaultPane.EnableAxisXZooming = DevExpress.Utils.DefaultBoolean.False;
+            xyDiagram1.DefaultPane.EnableAxisYScrolling = DevExpress.Utils.DefaultBoolean.False;
+            xyDiagram1.DefaultPane.EnableAxisYZooming = DevExpress.Utils.DefaultBoolean.False;
+            this.xrChart4.Diagram = xyDiagram1;
+            this.xrChart4.Legend.AlignmentHorizontal = DevExpress.XtraCharts.LegendAlignmentHorizontal.Right;
+            this.xrChart4.Legend.AlignmentVertical = DevExpress.XtraCharts.LegendAlignmentVertical.TopOutside;
+            this.xrChart4.Legend.Border.Visibility = DevExpress.Utils.DefaultBoolean.False;
+            this.xrChart4.Legend.Direction = DevExpress.XtraCharts.LegendDirection.LeftToRight;
+            this.xrChart4.Legend.Name = "Default Legend";
+            this.xrChart4.Legend.Visibility = DevExpress.Utils.DefaultBoolean.False;
+            this.xrChart4.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 10.00001F);
+            this.xrChart4.Name = "xrChart4";
+            this.xrChart4.Padding = new DevExpress.XtraPrinting.PaddingInfo(22, 22, 15, 32, 96F);
+            this.xrChart4.PaletteName = "Palette 1";
+            this.xrChart4.PaletteRepository.Add("Palette 1", new DevExpress.XtraCharts.Palette("Palette 1", DevExpress.XtraCharts.PaletteScaleMode.Repeat, new DevExpress.XtraCharts.PaletteEntry[] {
+                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(174)))), ((int)(((byte)(197))))), System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(174)))), ((int)(((byte)(197)))))),
+                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(107)))), ((int)(((byte)(132))))), System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(107)))), ((int)(((byte)(132)))))),
+                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(163)))), ((int)(((byte)(140))))), System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(163)))), ((int)(((byte)(140)))))),
+                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(144))))), System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(201)))), ((int)(((byte)(144)))))),
+                new DevExpress.XtraCharts.PaletteEntry(System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))), System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(162)))), ((int)(((byte)(161))))))}));
+            series3.ArgumentDataMember = "Ventas Realizadas.FechaVenta";
+            pointSeriesLabel1.TextPattern = "{V:#.00}";
+            series3.Label = pointSeriesLabel1;
+            series3.Name = "Serie1";
+            series3.ValueDataMembersSerializable = "Ventas Realizadas.Total";
+            series3.View = lineSeriesView1;
+            this.xrChart4.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
+        series3};
+            this.xrChart4.SeriesSorting = DevExpress.XtraCharts.SortingMode.Ascending;
+            this.xrChart4.SeriesTemplate.FilterString = "[Orders.OrderDate] >= #2019-01-01# And [Orders.OrderDate] < #2020-01-01#";
+            this.xrChart4.SeriesTemplate.LabelsVisibility = DevExpress.Utils.DefaultBoolean.False;
+            this.xrChart4.SeriesTemplate.View = lineSeriesView2;
+            this.xrChart4.SizeF = new System.Drawing.SizeF(570.0001F, 333.1251F);
+            this.xrChart4.StylePriority.UseBackColor = false;
+            this.xrChart4.StylePriority.UseBorderColor = false;
+            this.xrChart4.StylePriority.UseBorders = false;
+            this.xrChart4.StylePriority.UsePadding = false;
+            chartTitle1.Alignment = System.Drawing.StringAlignment.Near;
+            chartTitle1.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Bold);
+            chartTitle1.Indent = 25;
+            chartTitle1.Text = "Ventas Realizadas, C$";
+            chartTitle1.TextColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(174)))), ((int)(((byte)(180)))));
+            this.xrChart4.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
+            chartTitle1});
+            // 
+            // RptPanelDatos
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.Detail,
@@ -930,31 +841,26 @@ namespace Presentación.Reports
             this.PageWidth = 1100;
             this.RequestParameters = false;
             this.Version = "20.1";
-            ((System.ComponentModel.ISupportInitialize)(doughnutSeriesLabel1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnutSeriesView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrChart3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(doughnutSeriesView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(doughnutSeriesView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(pieSeriesView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(stackedBarSeriesView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(pointSeriesLabel1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(lineSeriesView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(lineSeriesView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrChart4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -977,7 +883,6 @@ namespace Presentación.Reports
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell2;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell7;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader1;
-        private DevExpress.XtraReports.UI.XRChart xrChart4;
         private DevExpress.XtraReports.UI.GroupHeaderBand GroupHeader2;
         private DevExpress.XtraReports.UI.XRLine xrLine1;
         private DevExpress.XtraReports.UI.XRTable xrTable2;
@@ -1014,6 +919,6 @@ namespace Presentación.Reports
         private DevExpress.XtraReports.UI.XRTableRow xrTableRow5;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell9;
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell11;
-        private DevExpress.XtraReports.UI.XRChart xrChart3;
+        private DevExpress.XtraReports.UI.XRChart xrChart4;
     }
 }
