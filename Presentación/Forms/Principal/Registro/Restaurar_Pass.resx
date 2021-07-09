@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="guna2AnimateWindow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="rtbMensaje.Text" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="es" xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+     &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+        .CToWUd {
+            width: 55px;
+            height: 54px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div marginwidth="0" marginheight="0" bgcolor="#f9f9f9" style="margin:0;padding:0;color:#333"&gt;
+        &lt;table cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" bgcolor="#f9f9f9" style="border-collapse:collapse"&gt;			
+            &lt;tbody&gt;
+				&lt;tr&gt;
+					&lt;td height="5" style="font-size:0;line-height:0;font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif"&gt;&amp;nbsp;&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td valign="middle" align="center" width="150" style="padding:20px 0;line-height:1;font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif"&gt;
+						&lt;img src="https://img.icons8.com/fluent/344/online-store.png" alt="alt text" border="0" class="CToWUd"&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td height="5" style="font-size:0;line-height:0;font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif"&gt;&amp;nbsp;&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/tbody&gt;
+		&lt;/table&gt;
+		&lt;table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="border-radius:3px"&gt;
+			&lt;tbody&gt;
+				&lt;tr&gt;
+					&lt;td style="font-size:16px;color:#2c2f33;padding:40px 7% 30px;font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif"&gt;
+                        Hola, Solicitaste el envio de tu contraseña:&lt;br/&gt;&lt;br/&gt;
+						Bien! Aqui tienes, continua disfrutando de sistema de punto de venta.
+					&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td style="text-align:center;padding:0 7% 10px;font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif"&gt;
+						&lt;a href="www.google.com" style="background-color:#33c17a;border:1px solid #33c17a;border-radius:3px;color:#ffffff;display:inline-block;font-weight:bold;text-align:center;text-decoration:none;padding-top:15px;padding-bottom:15px;padding-left:40px;padding-right:40px;font-size:14px;line-height:18px;text-transform:uppercase;font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif" target="_blank"
+							&lt;b&gt;@PASS&lt;/b&gt;
+						&lt;/a&gt;
+					&lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td align="center" style="padding:30px 0;font-size:12px;line-height:1.2;color:#666666;font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif"&gt;
+						&lt;span style="font-family:'Lato','Helvetica Neue',Helvetica,Arial,sans-serif"&gt;Este mensaje está dirigido a @NOMBRE, con el email 
+							&lt;a href="&lt;mailto:@EMAIL&gt;" target="_blank"&gt;@EMAIL&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+						&lt;/span&gt;
+						&amp;nbsp;© 2021 Alk-Framework Tecnologies, SL. Jensen Hernandez, Managua (Nicaragua)
+					&lt;/td&gt;
+				&lt;/tr&gt;
+			&lt;/tbody&gt;
+		&lt;/table&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+  <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>200, 17</value>
+  </metadata>
+</root>
